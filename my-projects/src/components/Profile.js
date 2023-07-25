@@ -1,4 +1,4 @@
-//PROPS IN A FUMCTON BASED COMPONENT 
+//PROPS IN A FUNCTION BASED COMPONENT 
 const Profile = (props) => {
     console.log(props)
     return <h1>Name: {props.name}</h1>;
