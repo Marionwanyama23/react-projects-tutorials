@@ -1,5 +1,7 @@
-const Profile = () => {
-    return <h1>Name: Marion</h1>
+//PROPS IN A FUMCTON BASED COMPONENT 
+const Profile = (props) => {
+    console.log(props)
+    return <h1>Name: {props.name}</h1>;
 }
 
 export default Profile;
