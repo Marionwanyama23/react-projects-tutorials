@@ -10,8 +10,6 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-     <Profile name = "Marion"/>
-     <ClassProp message = "This is a prop in a class based component"/>
      <Counter/>
     </div>
   );
