@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-
+//in event handling a method is used 
 class ClassEvent extends Component {
-    handleClick = () => {
+    handleClick () {
         console.log('This button has been clicked ')
     }
   render() {
