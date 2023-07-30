@@ -9,12 +9,13 @@ import Counter from './components/Counter';
 //import Resume from './components/Resume';
 import FunctionEvent from './components/FunctionEvent';
 //import ClassEvent from './components/ClassEvent';
+import BlogPost from './components/BlogPost';
 
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      <BlogPost/>
     </div>
   );
 }
