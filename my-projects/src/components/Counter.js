@@ -6,15 +6,19 @@ export default class Counter extends Component {
         this.state = {
             counter : 0,
         }
-    }
+        //this.increment = this.increment.bind(this)used tobind this keyword to the method
+        //this.decrement = this.decrement.bind(this)
 
-    increment() {
+    }
+    
+    increment = () => {
+      console.log(this)
         this.setState({
             counter: this.state.counter + 1
         })
     }
 
-    decrement() {
+    decrement=()=> {
         this.setState({
             counter: this.state.counter - 1
         })
@@ -23,8 +27,8 @@ export default class Counter extends Component {
     return (
       <div>
         <h1>The counter number is: {this.state.counter}</h1>
-        <button onClick={() => this.increment()}>increment</button>
-        <button onClick = {() => this.decrement()}>decrement</button>
+        <button onClick={this.increment}>increment</button>
+        <button onClick = {this.decrement}>decrement</button>
       </div>
     )
   }
