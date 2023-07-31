@@ -3,8 +3,20 @@ import React, {useState} from 'react'
 
 function FunctionalCounter() {
   const [counter, setCounter] = useState(0)
+
+  const increment = () =>{
+    setCounter(counter + 1)
+  }
+
+  const decrement = () =>{
+    setCounter(counter - 1)
+  }
   return (
-    <div>FunctionalCounter</div>
+    <div>
+      <div>Counter Value {counter}</div>
+      <button onClick = {increment}>increment</button>
+      <button onClick = {decrement}>Decrement</button>
+    </div>
   )
 }
 
