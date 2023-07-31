@@ -10,12 +10,12 @@ import Counter from './components/Counter';
 import FunctionEvent from './components/FunctionEvent';
 //import ClassEvent from './components/ClassEvent';
 import BlogPost from './components/BlogPost';
-
+import FunctionalCounter from './components/FunctionalCounter';
 
 function App() {
   return (
     <div className="App">
-      <BlogPost/>
+      <FunctionalCounter/>
     </div>
   );
 }
