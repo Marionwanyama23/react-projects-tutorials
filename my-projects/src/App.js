@@ -15,7 +15,7 @@ import FunctionalCounter from './components/FunctionalCounter';
 function App() {
   return (
     <div className="App">
-      <FunctionalCounter/>
+      <BlogPost/>
     </div>
   );
 }
