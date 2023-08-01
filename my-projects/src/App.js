@@ -12,11 +12,12 @@ import './App.css';
 //import BlogPost from './components/BlogPost';
 //import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
+import TernaryOperator from './components/TernaryOperator';
 
 function App() {
   return (
     <div className="App">
-      <ConditionalComponent/>
+      <TernaryOperator/>
     </div>
   );
 }
